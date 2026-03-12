@@ -8,21 +8,21 @@ import InputPassword from "./InputPassword.jsx";   // (6) Importa o campo de sen
 
 function Login() {                                 // (7) Declaração do componente funcional Login
   return (
-    <div className="login-container">              // (8) Container principal com layout centralizado
-      <form className="login-form">                // (9) Estrutura de formulário estilizada
-        <LabelTitle texto="Login" />               // (10) Título da tela
+    <div className="login-container">              
+      <form className="login-form">                
+        <LabelTitle texto="Login" />               
 
-        <div className="form-group">               // (11) Agrupa o label e o campo de texto
+        <div className="form-group">               
           <Label texto="Usuário:" />
           <InputText placeholder="user..." />
         </div>
 
-        <div className="form-group">               // (12) Agrupa o label e o campo de senha
+        <div className="form-group">               
           <Label texto="Senha:" />
           <InputPassword placeholder="password..." />
         </div>
 
-        <Button valor="Logar" />                   // (13) Botão de envio
+        <Button valor="Logar" />                   
       </form>
     </div>
   );
