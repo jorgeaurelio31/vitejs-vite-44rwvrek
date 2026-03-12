@@ -16,7 +16,7 @@ export default function InputPassword({ placeholder }) {
         value={senha}
         onChange={handleChange}
       />
-      {(senha !== "") && <p>Senha digitada: {senha}</p>}
+      
     </>
   );
 }
